@@ -1,5 +1,5 @@
 --1.Initialize DB
-if not exists (select* from sys.databases where name = 'carerhub')
+if not exists (select* from sys.databases where name = 'careerhub')
 begin 
 create database careerhub;
 end;
